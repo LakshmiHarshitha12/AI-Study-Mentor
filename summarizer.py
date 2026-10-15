@@ -13,7 +13,7 @@ client = Groq(
 
 def summarize(text):
     response = client.chat.completions.create(
-        model="model="openai/gpt-oss-120b",
+        model="openai/gpt-oss-120b",
         temperature=0.3,
         messages=[
             {
